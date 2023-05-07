@@ -69,4 +69,24 @@ there should be no semi colons between ".then()"
 #### error handling 
 .catch() block <br>
 
-### 
+### async await
+then catch finally can also be used in async await like the promises.
+```js
+async function order() {
+    try{
+        await abc;
+    }
+    catch(error){
+        console.log("abc doesn't exist: ", error);
+    }
+    finally{
+        console.log("runs code anyways");
+    }
+}
+order();
+// if using "then" statement , no semi-colon
+order()
+.then( () => {
+    console.log("first then statement");
+})
+```
