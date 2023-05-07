@@ -37,3 +37,21 @@ it takes instructions
 ### promise
 
 ![image](https://user-images.githubusercontent.com/77224604/236623992-d90cda5e-75ac-4c93-a665-f5549822e87e.png)
+```js
+let order = () => {
+    return new Promise((resolve , reject) => {
+        if(shop_is_open){
+            resolve( 
+                // call any function or write some console statement
+            )
+        }else{
+            reject(
+                // call any function or write some console statement
+            )
+        }
+    });
+};
+````
+#### promise chaining
+.then() statements <br>
+there should be no semi colons between ".then()"
