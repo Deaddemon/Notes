@@ -51,7 +51,22 @@ let order = () => {
         }
     });
 };
+
+// calling promise
+order()
+.then()
+.then()
+.then()
+.catch()
+.finally()
 ````
+.finally( () => {} ) <br>
+runs irrespective of promise is resolved or rejected.
+
 #### promise chaining
 .then() statements <br>
 there should be no semi colons between ".then()"
+#### error handling 
+.catch() block <br>
+
+### 
