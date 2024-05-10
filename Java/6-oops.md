@@ -21,6 +21,19 @@
 ## no multiple inheritance in java
 ![image](https://github.com/Deaddemon/Notes/assets/77224604/0bfddbac-8b12-49b9-b531-d8d9535bad19)
 
+## upcasting and downcasting
+```java
+class A{}
+class B extens A{}
+
+public class Demo{
+   public static void main(String a[]){
+         A obj = new B();  // upcasting
+         B obj1 = (B) obj; // downcasting
+   }
+}
+```
+
 ## packages 
 ``` whichever class you use in java, belongs to a package```
 ``` by default 'import java.lang.*;' is there. '*' means all files```
