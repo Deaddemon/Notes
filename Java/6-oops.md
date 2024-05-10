@@ -9,6 +9,10 @@
 1) Method overloading occurs when multiple methods in the same class have the same name but different parameters, while method overriding occurs when a subclass provides its own implementation of a method that is already defined in its superclasses. 
 
 
+## final keyword
+1) similar to const in c++
+2) can be applied to varible, method, class(stops inheritance)
+   
 ## access modifiers
 
 ![image](https://github.com/Deaddemon/Notes/assets/77224604/c1fe608a-3db2-4efb-8920-7780a938726e)
